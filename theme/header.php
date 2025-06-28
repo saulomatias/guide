@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+
 	<?php wp_head(); ?>
 </head>
 
@@ -24,8 +25,8 @@
 <?php wp_body_open(); ?>
 
 <div id="page">
-	<a href="#content" class="sr-only"><?php esc_html_e( 'Skip to content', 'guide' ); ?></a>
+	<a href="#content" class="sr-only text-white" ><?php esc_html_e( 'Skip to content', 'guide' ); ?></a>
 
-	<?php get_template_part( 'template-parts/layout/header', 'content' ); ?>
+
 
 	<div id="content">
